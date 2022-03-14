@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o /home/wwu/stefan.hess/Desktop/CPTR380_Instruction_set//isntruction_set_prom -s 1024 -u 0000 /home/wwu/stefan.hess/Desktop/CPTR380_Instruction_set/CPTR380_16bit_intruction_set-main/instruction_set.bit -spi 
+
+PROM /home/wwu/stefan.hess/Desktop/CPTR380_Instruction_set/isntruction_set_prom.prm map: Mon Mar 14 15:23:04 2022
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          1024K
+PROM start    0000:0000
+PROM end      000f:ffff
+PROM checksum 08f8f5ed
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0007:165b     Mar 14 14:24:38 2022 /home/wwu/stefan.hess/Desktop/CPTR380_Instruction_set/CPTR380_16bit_intruction_set-main/instruction_set.bit
