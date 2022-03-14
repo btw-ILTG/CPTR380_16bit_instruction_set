@@ -1,0 +1,1242 @@
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -convert_bram8 -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -convert_bram8 -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -convert_bram8 -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -convert_bram8 -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -convert_bram8 -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -convert_bram8 -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -convert_bram8 -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt 4 instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 
+xst -intstyle ise -ifn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xst" -ofn "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc wwu_fpga3_s6sdram_vector.ucf -p xc6slx16-ftg256-3 instruction_set.ngc instruction_set.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir place -pr off -lc off -power off -o instruction_set_map.ncd instruction_set.ngd instruction_set.pcf 
+par -w -intstyle ise -ol high -mt off instruction_set_map.ncd instruction_set.ncd instruction_set.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml instruction_set.twx instruction_set.ncd -o instruction_set.twr instruction_set.pcf -ucf wwu_fpga3_s6sdram_vector.ucf 
+bitgen -intstyle ise -f instruction_set.ut instruction_set.ncd 

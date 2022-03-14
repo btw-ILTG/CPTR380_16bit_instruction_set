@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/impact.xsl
+OUTFILE=/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess
+LICENSE=iMPACT
+USER_INFO=iMPACT

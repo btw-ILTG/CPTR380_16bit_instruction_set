@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Mar 14 00:08:00 2022
+# Process ID: 42480
+# Log file: /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/planAhead_run_1/planAhead.log
+# Journal file: /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/pa.fromNcd.tcl

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.ncd
+OUTFILE=/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.bit
+FAMILY=Spartan6
+PART=xc6slx16-3ftg256
+WORKINGDIR=/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess
+LICENSE=WebPack
+USER_INFO=212415524_0_0_418

@@ -1,0 +1,91 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Mar 14 00:08:00 2022
+# Process ID: 42480
+# Log file: /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/planAhead_run_1/planAhead.log
+# Journal file: /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from /home/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/home/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/home/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/pa.fromNcd.tcl
+# create_project -name CPTR380_Hess -dir "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/planAhead_run_1" -part xc6slx16ftg256-3
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess} }
+# set_property target_constrs_file "wwu_fpga3_s6sdram_vector.ucf" [current_fileset -constrset]
+Adding file '/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/wwu_fpga3_s6sdram_vector.ucf' to fileset 'constrs_1'
+# add_files [list {wwu_fpga3_s6sdram_vector.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16ftg256-3
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design instruction_set.ngc ...
+WARNING:NetListWriters:298 - No output is written to instruction_set.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file instruction_set.edif ...
+ngc2edif: Total memory usage is 94660 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/CPTR380_Hess.data/cache/instruction_set_ngc_945ca860.edif]
+Finished Parsing EDIF File [./planAhead_run_1/CPTR380_Hess.data/cache/instruction_set_ngc_945ca860.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'instruction_set' is not ideal for floorplanning, since the cellview 'instruction_set' defined in file 'instruction_set.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from /home/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from /home/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from /home/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from /home/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx16/ftg256/Package.xml
+Loading io standards from /home/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from /home/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : /home/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/wwu_fpga3_s6sdram_vector.ucf]
+Finished Parsing UCF File [/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/wwu_fpga3_s6sdram_vector.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: dca4ec48
+link_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 2953.027 ; gain = 180.340
+# read_xdl -file "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.ncd"
+Release 14.7 - xdl P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+WARNING:XDL:213 - The resulting xdl output will not have LUT equation strings or RAM INIT strings.
+Loading device for application Rf_Device from file '6slx16.nph' in environment /home/Xilinx/14.7/ISE_DS/ISE/.
+   "instruction_set" is an NCD, version 3.2, device xc6slx16, package ftg256, speed -3
+Successfully converted design '/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.ncd' to '/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.xdl'.
+INFO: [Designutils 20-669] Parsing Placement File : /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.ncd
+WARNING: [Designutils 20-665] Net Name: sw<0>. Found in file: /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: sw<1>. Found in file: /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: sw<2>. Found in file: /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: sw<3>. Found in file: /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.ncd. Not Recognizable in the Context
+INFO: [Designutils 20-658] Finished Parsing Placement File : /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.ncd
+INFO: [Designutils 20-671] Placed 1309 instances
+read_xdl: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2953.027 ; gain = 0.000
+# if {[catch {read_twx -name results_1 -file "/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.twx\": $eInfo"
+# }
+exit
+ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See /home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/planAhead_pid42480.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Mar 14 00:09:04 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead
