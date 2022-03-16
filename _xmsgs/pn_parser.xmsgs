@@ -8,6 +8,24 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/alu_16bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/bram.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/control_logic.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/instruction_set.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/ioram.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/register_file.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/archie/WWU/W22/CPTR380/Project/CPTR380_Hess/rom_memory.vhd&quot; into library work</arg>
 </msg>
 

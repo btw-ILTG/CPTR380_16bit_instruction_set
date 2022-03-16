@@ -19,10 +19,11 @@
 -- 16-bit RAM Memory
 --
 --  Input:
---      we:         write enable
---      clk:        clock line
---      address:    16-bit address
---      data_in:    16-bit data
+--      we:             write enable
+--      clk:            clock line
+--      address_in:     16-bit address to write to
+--      data_in:        16-bit data to write in
+--      address_read:   16-bit address to read out
 --
 --  Output:
 --      data_out:   16-bit data
@@ -38,7 +39,6 @@ use ieee.numeric_std.all;
 entity ioram is
     Port (  we : in std_logic;
             clk : in std_logic;
-            read_clk : in std_logic;
             address_in : in std_logic_vector (15 downto 0);
             data_in : in std_logic_vector (15 downto 0);
             address_read : in std_logic_vector (15 downto 0);

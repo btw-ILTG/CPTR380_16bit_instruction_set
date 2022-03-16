@@ -22,15 +22,15 @@
 --  Inputs:
 --      op code:    4 bits [15:12]
 --  Outputs:
---      ALUOp:      3 bits of ALU operation
---      Jump:       specifies if jump instruction
---      Branch:     specifies if branch instruction
---      MemtoReg:   allows RAM to be read to register
---      MemWrite:   allows writing to RAM
---      ALUSrc:     selects whether alu reg_2 is from the instruction or register
---      RegWrite:   enables writing back to register
+--      ALUOp:          3 bits of ALU operation
+--      ReadRegDest:    changes flow into register file
+--      Jump:           specifies if jump instruction
+--      Branch:         specifies if branch instruction
+--      MemtoReg:       allows RAM to be read to register
+--      MemWrite:       allows writing to RAM
+--      ALUSrc:         selects whether alu reg_2 is from the instruction or register
+--      RegWrite:       enables writing back to register
 --      LoadLargeImm:   loads a large Immediate
---      Much more to come
 --
 --
 ----------------------------------------------------------------------------------

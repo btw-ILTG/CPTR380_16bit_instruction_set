@@ -26,10 +26,12 @@
 --      read_reg2:  register 2 code 4-bits
 --      write_reg:  register output code 4-bits
 --      write_data: data to write to write_reg 16-bits
+--      pc_next:    data to write to the pc
 --
 --  Output:
 --      reg1_data:  16-bit data from register 1
 --      reg2_data:  16-bit data from register 2
+--      pc:         16-bit data of the PC
 --
 ----------------------------------------------------------------------------------
 

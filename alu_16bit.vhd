@@ -31,9 +31,11 @@
 --          111: XOR
 --
 --		2 16-bit numbers
+--
 --	Output:
 --		1 16-bit number resulting from the operation
 --      1 bit representing whether there was an overflow
+--      1 bit asserted if operation resulted in a zero (good for branching)
 ----------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;

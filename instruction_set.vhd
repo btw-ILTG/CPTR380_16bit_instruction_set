@@ -375,12 +375,9 @@ architecture Behavioral of instruction_set is
     -- 7 seg output
     signal digit_out, digit_next: unsigned(1 downto 0);
     signal io_data, io_addr_read: std_logic_vector(15 downto 0);
-    signal digit_addr: std_logic_vector(2 downto 0);
     signal io_data_out: std_logic_vector(3 downto 0);
 
 begin 
-    --anode <= "11111";
-    --cath <= "11111111";
 
     clock_gen: clock_generator generic map(COUNT_MAX => 4999999, REG_SIZE => 23)
                                     port map(master_clk => mclk, derived_clk => slowclk);
@@ -388,14 +385,16 @@ begin
     clock_gen_500: clock_generator generic map(COUNT_MAX => 49999, REG_SIZE => 17)
                                     port map(master_clk => mclk, derived_clk => clk_500);
 
+    -- used for looking at the signals for debugging, will leave here just in case
+
     --tek2 <= "00000000";
     --tek1 <= "00000000";
 
     --tek2 <= rom_instr(15 downto 8);
     --tek1 <= rom_instr(7 downto 0);
 
-    tek2 <= io_data(15 downto 8);
-    tek1 <= io_data(7 downto 0);
+    --tek2 <= io_data(15 downto 8);
+    --tek1 <= io_data(7 downto 0);
 
     --tek2 <= io_addr_read(7 downto 0);
     --tek1 <= io_data(7 downto 0);
@@ -425,10 +424,6 @@ begin
     end process;
 
     digit_next <= digit_out+1;
-    --digit_addr <= std_logic_vector(digit_out) & "0";
-
-    --io_addr_read <= "1111000000000" & digit_addr;
-    --io_addr_read <= "11110000000000" & std_logic_vector(digit_out);
     io_addr_read <= "1111000000000000";
 
 
@@ -438,14 +433,7 @@ begin
                  "11101" when "10",
                  "11110" when "11";
 
-    --with digit_out select
-    --    cath <= "10011001" when "00",
-    --            "10110000" when "01",
-    --            "10100100" when "10",
-    --            "11111001" when "11";
 
-
-    -- figure out clocking
     io_ram: ioram port map(we => MemWrite, clk => slowclk, read_clk => clk_500, address_in => alu_out, data_in => reg2_data,
                             address_read => io_addr_read, data_out => io_data);
 
